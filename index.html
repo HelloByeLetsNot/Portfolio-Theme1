@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#my-apps">My Apps</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <section id="about">
+      <div class="container">
+          <div class="profile-picture">
+              <img src="https://public-files.gumroad.com/h49m950kxibyajxiru1e3mkw6po6" alt="Profile Picture">
+          </div>
+          <h2>About Me</h2>
+          <p>Insert your about me content here.</p>
+      </div>
+  </section>
+
+  <section id="portfolio">
+      <div class="container">
+          <h2>Portfolio</h2>
+
+          <div class="project">
+              <h3>Project Name 1</h3>
+              <p>Description of the project goes here.</p>
+              <pre><code>// HTML code example
+  &lt;div class="container"&gt;
+      &lt;h1&gt;Hello, World!&lt;/h1&gt;
+  &lt;/div&gt;</code></pre>
+          </div>
+
+          <!-- Add more projects as needed -->
+
+      </div>
+  </section>
+
+<section id="my-apps">
+    <div class="container">
+        <h2>My Apps</h2>
+        <div class="apps-container">
+        
+
+            <div class="app">
+                <h3>USB Formatter</h3>
+                <img src="https://public-files.gumroad.com/f6ers5lupaofjwg2o3ao2g67xgvg" alt="App 1 Screenshot">
+                <p>Description of the app goes here.</p>
+                <a href="app1_download_link" class="download-link">Download App</a>
+            </div>
+
+            <div class="app">
+                <h3>Crypto Tracker</h3>
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVxfqdA9dFngBD1bZ8BgVZ2Lzqo-Y082FJ8jA1WyTgrsrnr_orwoiiME-blV1p6nR1VjusvUhfmN1bm_NCi0tVcjMy8qnvMx-V2WzhBS57b1CKuzQgzCmi11ejrhyphenhyphenuc2Yz81XhqXgSKCQF9l2VudQ-uuqamMIettDq0kWrCy2zWzmKSVueNs7oYqJxZ88m/s320/7c1hiwv8o8np6307c6vtsrmfkdbu.png" alt="App 2 Screenshot">
+                <p>Description of the app goes here.</p>
+                <a href="app2_download_link" class="download-link">Download App</a>
+            </div>
+
+            <!-- Add more apps as needed -->
+
+        </div>
+    </section>
+  <section id="contact">
+      <div class="container">
+          <h2>Contact Me</h2>
+          <form action="submit_contact_form.php" method="POST">
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+
+              <button type="submit">Send</button>
+          </form>
+      </div>
+  </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 KozaWorld.</p>
+        </div>
+    </footer>
+</body>
+</html>
